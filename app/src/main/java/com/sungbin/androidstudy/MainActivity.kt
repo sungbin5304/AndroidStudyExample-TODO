@@ -21,9 +21,6 @@ import kotlinx.android.synthetic.main.layout_todo_add.*
 
 class MainActivity : AppCompatActivity() {
 
-    private val dataName = "TodoList"
-    private val checkedDataName = "CheckedTodoList"
-
     @SuppressLint("InflateParams")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
