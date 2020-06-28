@@ -4,20 +4,17 @@ import android.Manifest
 import android.annotation.SuppressLint
 import android.graphics.Color
 import android.graphics.Paint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.material.snackbar.Snackbar
 import com.sungbin.recyclerviewadaptermaker.library.AdapterHelper
 import com.sungbin.recyclerviewadaptermaker.library.options.Divider
 import com.sungbin.recyclerviewadaptermaker.library.options.Option
 import com.sungbin.sungbintool.PermissionUtils
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.layout_todo_add.*
 
 class MainActivity : AppCompatActivity() {
 
